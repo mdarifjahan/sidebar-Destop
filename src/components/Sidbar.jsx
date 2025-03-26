@@ -10,7 +10,7 @@ const Sidbar = ({sideBarToggole}) => {
         <>
             <div className={`${sideBarToggole? "hidden" : "block"} w-64 bg-slate-800  fixed h-full px-4 py-2 `}>
                 <div className='m-2'>
-                    <img className='w-20% ' src="/public/download.svg" alt="" />
+                    <img className='w-20% ' src='/download.svg' alt="" />
                    
                 </div>
                 <hr />
